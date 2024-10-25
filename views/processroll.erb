@@ -1,0 +1,13 @@
+
+<h1><%= @num_dice %>d<%= @num_sides %></h1>
+
+
+<ol>
+  <% @rolls.each do |a_roll| %>
+    <li> Result: 
+      <%= a_roll %>
+    </li>
+  <% end %>
+</ol>   
+
+<a href="/">Go back home</a>
